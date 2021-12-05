@@ -8,3 +8,26 @@
 --Desaturated-blue: hsl(224, 23%, 55%);
 --Dark-blue: hsl(223, 47%, 23%);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) {
+
+}
