@@ -21,6 +21,11 @@
       background-color: var(--pale-blue);
       padding: 1.25rem;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
   }
 
   .bgr{
@@ -47,22 +52,47 @@
       position: absolute;
       background-color: #fff;
       margin: 20px;
+      padding-bottom: 20px;
       border-radius: 1.2rem;
       box-shadow: 3px 3px 3px hsl(228, 45%,44%, 0.2)
   }
 
-  .container img {
+  .container h1 {
+      margin: 10px 0
+  }
+
+  .container .top-image {
       width: 100%;
-      border-top-left-radius: 1.2rem;
-      border-top-right-radius: 1.2rem
+      border-radius: 1.2rem 1.2rem 0 0
 
   }
 
   .container .plan {
+    background-color: var(--Very-pale-blue);
+    padding: 20px;
+     border-radius: 1rem;
+      margin: 20px auto;
+      width: 80%;
       display: flex;
       align-items: center;
       justify-content: space-between;
+  }
 
+  .container .plan article {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .container .plan article img {
+      margin-right: 10px;
+  }
+
+  .container .pay {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
   }
 
   h1 {
@@ -72,10 +102,6 @@
   p {
       color: var(--Desaturated-blue);
       line-height: 1.6;
-  }
-
-  .plan {
-      background-color: var(--Very-pale-blue);
   }
 
   .btn {
@@ -97,7 +123,9 @@
   .btn-primary {
       background-color: var(--Bright-blue);
       color: #fff;
-      padding: 10px 20px
+      width: 80%;
+      padding: 15px;
+      margin-bottom: 10px
   }
 
   .btn-primary:hover, .btn-change:hover {
@@ -108,6 +136,7 @@
   .btn-secondary {
       background-color: transparent;
       color: var(--Desaturated-blue);
+      margin-bottom: 10px
   }
 
   .btn-secondary:hover{
