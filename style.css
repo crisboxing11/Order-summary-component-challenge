@@ -51,6 +51,13 @@
       box-shadow: 3px 3px 3px hsl(228, 45%,44%, 0.2)
   }
 
+  .container .plan {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+  }
+
   p {
       color: var(--Desaturated-blue)
   }
