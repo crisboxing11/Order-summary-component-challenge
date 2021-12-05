@@ -19,6 +19,7 @@
     font-family: 'Red Hat Display', sans-serif;
       font-size: 16px;
       background-color: var(--pale-blue);
+      padding: 1.25rem
   }
 
   .bgr{
@@ -42,7 +43,20 @@
   
 
   .container {
-      
+      position: absolute;
+      background-color: #fff;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 1.2rem;
+      box-shadow: 3px 3px 3px hsl(228, 45%,44%, 0.2)
+  }
+
+  p {
+      color: var(--Desaturated-blue)
+  }
+
+  .plan {
+      background-color: var(--Very-pale-blue);
   }
 
 
