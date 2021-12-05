@@ -19,7 +19,8 @@
     font-family: 'Red Hat Display', sans-serif;
       font-size: 16px;
       background-color: var(--pale-blue);
-      padding: 1.25rem
+      padding: 1.25rem;
+      text-align: center;
   }
 
   .bgr{
@@ -46,9 +47,15 @@
       position: absolute;
       background-color: #fff;
       margin: 20px;
-      padding: 20px;
       border-radius: 1.2rem;
       box-shadow: 3px 3px 3px hsl(228, 45%,44%, 0.2)
+  }
+
+  .container img {
+      width: 100%;
+      border-top-left-radius: 1.2rem;
+      border-top-right-radius: 1.2rem
+
   }
 
   .container .plan {
@@ -58,12 +65,53 @@
 
   }
 
+  h1 {
+      color:hsl(223, 47%, 23%)
+  }
+
   p {
-      color: var(--Desaturated-blue)
+      color: var(--Desaturated-blue);
+      line-height: 1.6;
   }
 
   .plan {
       background-color: var(--Very-pale-blue);
+  }
+
+  .btn {
+      border: none;
+      padding: 5px 10px;
+      border-radius: 10px;
+      font-weight: 900;
+      cursor: pointer;
+      transition: all ease-in-out .2s
+  }
+
+  .btn-change {
+      background-color: transparent;
+      color: var(--Bright-blue);
+      text-decoration: underline;
+      
+  }
+
+  .btn-primary {
+      background-color: var(--Bright-blue);
+      color: #fff;
+      padding: 10px 20px
+  }
+
+  .btn-primary:hover, .btn-change:hover {
+      opacity: 0.8;
+
+  }
+
+  .btn-secondary {
+      background-color: transparent;
+      color: var(--Desaturated-blue);
+  }
+
+  .btn-secondary:hover{
+      color:hsl(223, 47%, 23%)
   }
 
 
